@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freedom Fighters of India</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card h3 {
+            margin: 15px 0;
+            font-size: 1.5em;
+            color: #343a40;
+        }
+        .card p {
+            padding: 0 10px 15px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Freedom Fighters of India</h1>
+    </header>
+    <div class="container">
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" alt="Mahatma Gandhi">
+            <h3>Mahatma Gandhi</h3>
+            <p>Known as the Father of the Nation, Mahatma Gandhi led the Indian independence movement through non-violence and civil disobedience.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" alt="Subhas Chandra Bose">
+            <h3>Subhas Chandra Bose</h3>
+            <p>Leader of the Indian National Army, Subhas Chandra Bose was a prominent figure who advocated armed struggle for independence.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" alt="Bhagat Singh">
+            <h3>Bhagat Singh</h3>
+            <p>A revolutionary icon, Bhagat Singh fought against British rule with his fearless acts and ultimate sacrifice at a young age.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" alt="Rani Lakshmibai">
+            <h3>Rani Lakshmibai</h3>
+            <p>Also known as the Queen of Jhansi, she was a fierce warrior who played a key role in the 1857 rebellion against British rule.</p>
+        </div>
+    </div>
+</body>
+</html>
